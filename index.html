@@ -5,9 +5,69 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign-up-form</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class="back">
+        <div class="main-div">
+            <div class="h1"><h1>Registration Form</h1></div>
+            <div class="content">
+                <div class="div1">
+                    <p class="p">First Name</p>
+                    <input type="text" class="form" placeholder="Johnny">
+                </div>
+                <div class="div2">
+                    <p class="p">Last Name</p>
+                    <input type="text" class="form" placeholder="Nelson">
+                </div>
+                <div class="div3">
+                    <p class="p">Birthday</p>
+                    <input type="date" class="form">
+                </div>
+                <div class="div4">
+                    <p class="p">Gender</p>
+                    <div class="gender">
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                            <label class="form-check-label" for="flexRadioDefault1">
+                            Male</label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                            <label class="form-check-label" for="flexRadioDefault2">
+                            Female</label>
+                          </div>
+                    </div>
+                </div>
+                <div class="div5">
+                    <p class="p">Email</p>
+                    <input type="text" class="form">
+                </div>
+                <div class="div6">
+                    <p class="p">Phone Number</p>
+                    <input type="number" class="form">
+                </div>
+                <div class="div7">
+                    <p class="p">Subject</p>
+                    <button class="btn btn-secondary dropdown-toggle ghg" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                       Choose Option   
+                      </button>
+                      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      </ul>
+                </div>
+            </div>
+            <div class="btn">
+                <button type="button" class="btn btn-primary">Submit</button>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
