@@ -14,12 +14,13 @@
 </head>
 <body>
     <div class="back">
+        <form id="submit">
         <div class="main-div">
             <div class="h1"><h1>Registration Form</h1></div>
             <div class="content">
                 <div class="div1">
                     <p class="p">First Name</p>
-                    <input type="text" class="z form" placeholder="Johnny">
+                    <input type="text" class="z form" id="firstName" placeholder="Johnny">
                 </div>
                 <div class="div2">
                     <p class="p">Last Name</p>
@@ -65,9 +66,12 @@
                 </div>
             </div>
             <div class="btn">
-                <button type="button" class="btn btn-primary">Submit</button>
+                <button type="submit" class="btn btn-primary">Submit</button>
             </div>
         </div>
+        </form>
     </div>
+    <script src="app.js">
+    </script>
 </body>
 </html>
